@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" fill="none">
+  <!-- Subtle warm texture tint -->
+  <style>
+    .doodle { stroke: #D99527; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; opacity: 0.14; }
+    .doodle-accent { stroke: #2D5032; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.10; }
+  </style>
+
+  <!-- 1. Burger (Top Left) -->
+  <g class="doodle" transform="translate(40, 40) scale(0.95)">
+    <!-- Top Bun -->
+    <path d="M10 35 C10 15, 60 15, 60 35 Z" />
+    <!-- Sesame Seeds -->
+    <circle cx="25" cy="23" r="1" fill="#D99527" opacity="0.14" />
+    <circle cx="35" cy="20" r="1" fill="#D99527" opacity="0.14" />
+    <circle cx="45" cy="24" r="1" fill="#D99527" opacity="0.14" />
+    <!-- Lettuce Wavy Line -->
+    <path d="M8 35 Q15 40, 22 35 T36 35 T50 35 T62 35" />
+    <!-- Cheese Melt -->
+    <path d="M10 40 L60 40 L55 46 L45 40 L35 48 L25 40 Z" />
+    <!-- Patty -->
+    <rect x="8" y="47" width="54" height="8" rx="4" />
+    <!-- Bottom Bun -->
+    <path d="M12 57 C12 65, 58 65, 58 57 Z" />
+  </g>
+
+  <!-- 2. Pizza Slice (Top Right) -->
+  <g class="doodle" transform="translate(260, 30) rotate(15)">
+    <!-- Crust -->
+    <path d="M10 20 Q40 10, 70 20 Q40 25, 10 20 Z" />
+    <!-- Slice Body -->
+    <path d="M12 22 L40 85 L68 22" />
+    <!-- Pepperoni Circles -->
+    <circle cx="35" cy="38" r="6" />
+    <circle cx="48" cy="52" r="5" />
+    <circle cx="28" cy="58" r="4.5" />
+    <!-- Drips -->
+    <path d="M25 32 Q28 38, 30 32" />
+  </g>
+
+  <!-- 3. Cheese Wedge (Center Left) -->
+  <g class="doodle" transform="translate(30, 200) rotate(-10)">
+    <path d="M10 50 L60 20 L75 55 L10 50 Z" />
+    <path d="M60 20 L60 65 L75 55" />
+    <path d="M10 50 L10 68 L60 65" />
+    <!-- Cheese Holes -->
+    <circle cx="30" cy="48" r="4" />
+    <circle cx="48" cy="38" r="5" />
+    <circle cx="40" cy="55" r="3" />
+  </g>
+
+  <!-- 4. Penne / Pasta (Center Right) -->
+  <g class="doodle" transform="translate(280, 210) rotate(40)">
+    <path d="M10 10 L50 20 L40 40 L0 30 Z" />
+    <line x1="12" y1="18" x2="42" y2="26" />
+    <line x1="10" y1="24" x2="38" y2="32" />
+  </g>
+
+  <!-- 5. Farfalle Bowtie Pasta (Top Center) -->
+  <g class="doodle" transform="translate(170, 50) rotate(-20)">
+    <path d="M10 15 Q25 25, 10 35 L20 38 Q25 25, 30 38 L40 35 Q25 25, 40 15 L30 12 Q25 25, 20 12 Z" />
+    <line x1="22" y1="20" x2="28" y2="30" />
+  </g>
+
+  <!-- 6. Garlic Bulb (Bottom Left) -->
+  <g class="doodle" transform="translate(70, 310)">
+    <path d="M25 10 C20 20, 10 25, 10 38 C10 50, 20 55, 25 55 C30 55, 40 50, 40 38 C40 25, 30 20, 25 10 Z" />
+    <path d="M25 10 C23 25, 20 40, 25 55" />
+    <path d="M25 10 C27 25, 30 40, 25 55" />
+  </g>
+
+  <!-- 7. Tomato (Bottom Right) -->
+  <g class="doodle" transform="translate(270, 310)">
+    <circle cx="30" cy="32" r="20" />
+    <!-- Stem/Leaves -->
+    <path d="M30 12 L27 7 L30 10 L33 7 L30 12 Z" fill="#D99527" opacity="0.14" />
+    <path d="M24 13 Q30 16, 36 13" />
+    <!-- Highlight line -->
+    <path d="M18 24 A 12 12 0 0 1 26 16" stroke-dasharray="2 2" />
+  </g>
+
+  <!-- 8. Chef Hat / Dip Bowl (Center) -->
+  <g class="doodle-accent" transform="translate(170, 180)">
+    <!-- Dip bowl with sauce dip -->
+    <path d="M10 20 Q25 15, 40 20 L35 40 Q25 45, 15 40 Z" />
+    <path d="M12 22 Q25 28, 38 22" />
+    <!-- Nacho Chip dipping -->
+    <path d="M20 5 L32 18 L15 22 Z" />
+  </g>
+
+  <!-- 9. French Fry / Drink Cup (Bottom Center) -->
+  <g class="doodle" transform="translate(180, 320) rotate(-10)">
+    <path d="M15 15 L35 15 L30 50 L20 50 Z" />
+    <path d="M12 15 L38 15" />
+    <!-- Straw -->
+    <path d="M27 15 L32 0 L37 0" />
+    <!-- Drink Star Accent -->
+    <path d="M25 30 L27 34 L31 34 L28 37 L29 41 L25 38 L21 41 L22 37 L19 34 L23 34 Z" />
+  </g>
+
+  <!-- 10. Leaves & Spice Sprinkles (Scattered accents) -->
+  <g class="doodle-accent">
+    <!-- Leaf 1 -->
+    <path d="M120 110 Q135 100, 130 120 Q115 130, 120 110 Z" />
+    <line x1="120" y1="110" x2="130" y2="120" />
+    <!-- Leaf 2 -->
+    <path d="M340 140 Q355 130, 350 150 Q335 160, 340 140 Z" />
+    <!-- Dots / Spice Sprinkles -->
+    <circle cx="110" cy="50" r="1.5" fill="#D99527" opacity="0.15" />
+    <circle cx="230" cy="120" r="2" fill="#D99527" opacity="0.12" />
+    <circle cx="340" cy="270" r="1.5" fill="#2D5032" opacity="0.12" />
+    <circle cx="130" cy="270" r="2" fill="#D99527" opacity="0.15" />
+    <circle cx="50" cy="160" r="1.5" fill="#D99527" opacity="0.12" />
+    <!-- Sparkle Stars -->
+    <path d="M230 40 L232 44 L236 44 L233 47 L234 51 L230 48 L226 51 L227 47 L224 44 L228 44 Z" />
+    <path d="M120 340 L122 343 L126 343 L123 345 L124 349 L120 347 L116 349 L117 345 L114 343 L118 343 Z" />
+  </g>
+</svg>

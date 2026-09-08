@@ -1,0 +1,6 @@
+{
+  "name": "Klickz & Dipz Cafe",
+  "description": "Showcase website for Klickz & Dipz Cafe & Photobooth",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

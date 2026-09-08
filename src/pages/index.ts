@@ -1,0 +1,11 @@
+export { Home } from './Home';
+export { OrderPage } from './OrderPage';
+export { CombosPage } from './CombosPage';
+export { MenuPage } from './MenuPage';
+export { LocationPage } from './LocationPage';
+export { GalleryPage } from './GalleryPage';
+export { GalleryCategoryPage } from './GalleryCategoryPage';
+export { PhotoboothPage } from './PhotoboothPage';
+export { EventsPage } from './EventsPage';
+export { PrivacyPolicyPage } from './PrivacyPolicyPage';
+export { TermsPage } from './TermsPage';
