@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { OrderBanner } from '../components';
-import { ShoppingBag, ExternalLink, Sparkles, CheckCircle2, Clock, Lock, ArrowRight, Motorbike } from 'lucide-react';
+import { ShoppingBag, ExternalLink, Sparkles, CheckCircle2, Clock, Lock } from 'lucide-react';
 
 const ZomatoLogo = () => (
   <span className="font-black font-display tracking-tighter text-3xl sm:text-4xl text-[#E23744] italic">

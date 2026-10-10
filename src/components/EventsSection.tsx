@@ -612,7 +612,7 @@ export const EventsSection: React.FC = () => {
                   )}
                 </button>
                 <p className="text-center text-xs text-gray-500 mt-3 font-medium">
-                  Enquiry will be sent to WhatsApp number <span className="font-bold text-brand-primary">+91 97909 98182</span>
+                  Enquiry will be sent directly to our official WhatsApp
                 </p>
               </div>
 

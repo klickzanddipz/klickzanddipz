@@ -1,13 +1,14 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { MenuSection } from '../components';
+import { RevealingSoonSection } from '../components';
 
 export const MenuPage = () => (
-  <main className="min-h-screen bg-brand-bg pt-8">
+  <main className="min-h-screen bg-brand-bg">
     <Helmet>
-      <title>Menu | Klickz & Dipz Cafe</title>
-      <meta name="description" content="Explore our extensive menu of burgers, fries, shakes, and more at Klickz & Dipz Cafe." />
+      <title>Our Menu at VR Mall Chennai | Korean Noodles, Mojitos & Crunch Burgers</title>
+      <meta name="description" content="Taste spicy Korean noodles, chilled craft mojitos, gourmet crunch burgers & signature dips live at Klickz & Dipz, 3rd Floor VR Mall Anna Nagar, Chennai." />
+      <link rel="canonical" href="https://klickzanddipz.com/menu" />
     </Helmet>
-    <MenuSection />
+    <RevealingSoonSection type="menu" />
   </main>
 );

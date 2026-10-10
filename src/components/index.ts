@@ -11,5 +11,5 @@ export { EventsSection } from './EventsSection';
 export { LocationSection } from './LocationSection';
 export { ScrollToTopButton } from './ScrollToTopButton';
 export { Footer } from './Footer';
-
-
+export { RevealingSoonSection } from './RevealingSoonSection';
+export { StoreStatusBadge } from './StoreStatusBadge';

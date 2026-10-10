@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { FileCheck, Mail, MapPin, Phone, ArrowLeft, Utensils, Camera, PartyPopper } from 'lucide-react';
+import { FileCheck, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export const TermsPage: React.FC = () => {

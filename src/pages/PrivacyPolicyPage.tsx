@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ShieldCheck, Mail, MapPin, Phone, ArrowLeft, Lock, FileText } from 'lucide-react';
+import { ShieldCheck, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export const PrivacyPolicyPage: React.FC = () => {

@@ -1,17 +1,16 @@
 import React from 'react';
-import { MapPin, Clock, Phone, Navigation, ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { MapPin, Clock, Navigation, ArrowRight } from 'lucide-react';
 
 interface LocationSectionProps {
   isHomeScreen?: boolean;
 }
 
 export const LocationSection: React.FC<LocationSectionProps> = ({ isHomeScreen = false }) => (
-  <section className="py-16 md:py-24 bg-brand-doodle relative overflow-hidden">
+  <section id="location" className="py-16 md:py-24 bg-brand-doodle relative overflow-hidden scroll-mt-20">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
       {/* Section Header */}
-      <div className="mb-10 flex flex-col sm:flex-row sm:items-end justify-between">
+      <div className="mb-10 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-primary/10 text-brand-primary font-extrabold font-display text-xs uppercase tracking-widest mb-3 border border-brand-primary/20">
             <Navigation size={14} className="text-brand-accent animate-pulse" />
@@ -21,8 +20,6 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ isHomeScreen =
             VISIT <span className="text-brand-accent">OUR CAFE</span>
           </h2>
         </div>
-
-
       </div>
 
       {/* Grid with Comfortable Breathing Room */}
@@ -43,11 +40,11 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ isHomeScreen =
             </div>
           </div>
 
-          <div className="floating-card p-6 sm:p-7 flex items-start gap-4">
+          <div id="open-hours" className="floating-card p-6 sm:p-7 flex items-start gap-4 scroll-mt-28">
             <div className="p-3.5 bg-brand-primary/10 rounded-2xl text-brand-primary flex-shrink-0">
               <Clock size={28} />
             </div>
-            <div>
+            <div className="flex-grow">
               <h3 className="text-lg sm:text-xl font-extrabold font-display text-brand-dark uppercase">Open Hours</h3>
               <p className="mt-1.5 text-brand-dark/75 text-sm sm:text-base font-medium leading-relaxed">
                 10:30 am - 11:00 pm<br />Everyday (Mon - Sun)
@@ -57,12 +54,12 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ isHomeScreen =
 
           <div className="floating-card p-6 sm:p-7 flex items-start gap-4">
             <div className="p-3.5 bg-brand-red/10 rounded-2xl text-brand-red flex-shrink-0">
-              <Phone size={28} />
+              <Navigation size={28} />
             </div>
             <div>
-              <h3 className="text-lg sm:text-xl font-extrabold font-display text-brand-dark uppercase">Contact Us</h3>
+              <h3 className="text-lg sm:text-xl font-extrabold font-display text-brand-dark uppercase">Online Enquiries</h3>
               <p className="mt-1.5 text-brand-dark/75 text-sm sm:text-base font-medium leading-relaxed">
-                +91 97909 98182<br />klickzanddipz@gmail.com
+                klickzanddipz@gmail.com<br />Instagram DM: @klickz_dipz
               </p>
             </div>
           </div>
@@ -74,7 +71,7 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ isHomeScreen =
             {/* Storefront background image with 50% opacity */}
             <img
               src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
-              alt="Klickz & Dipz Storefront"
+              alt="Klickz & Dipz Storefront VR Mall Chennai"
               className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-105 transition-transform duration-700 pointer-events-none"
             />
             {/* Dark green overlay */}
@@ -86,15 +83,13 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ isHomeScreen =
                 <MapPin size={32} />
               </div>
 
-              <p className="text-white/80 text-sm sm:text-base font-medium">
-                Locate our store, check live directions, and come taste the vibes in person!
+              <p className="text-white/90 text-sm sm:text-base font-medium">
+                Locate our store on 3rd floor, check live directions, and come taste the vibes in person!
               </p>
-
-
 
               {/* Animated Action Icon Get Directions Button */}
               <a
-                href="https://maps.app.goo.gl/Y4MNWHsEWgXkqozd7"
+                href="https://maps.app.goo.gl/k3jpsXyzGnhVVfXR7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-reflex btn-reflex-accent px-8 py-4 text-base sm:text-lg flex items-center gap-3 shadow-2xl hover:scale-105 transition-all group/btn"
@@ -108,15 +103,15 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ isHomeScreen =
         ) : (
           <div className="h-full min-h-[460px] lg:min-h-[480px] rounded-3xl overflow-hidden border-4 border-brand-primary/30 shadow-lg floating-card relative group flex flex-col">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.1775791333796!2d80.1989061!3d13.0880314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52641a96732331%3A0x6b6932454508ed44!2sVR%20Chennai!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.088!2d80.1976239!3d13.0804574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52670078a23d7b%3A0x694d139e445d4563!2sKlickz%20%26%20Dipz!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
               width="100%" height="100%" style={{ border: 0, minHeight: '380px' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
-              title="Klickz & Dipz Location Map"
+              title="Klickz & Dipz Google Maps Location"
               className="w-full flex-grow"
             ></iframe>
             <div className="p-4 bg-white/95 backdrop-blur-md border-t border-brand-primary/20 flex items-center justify-between gap-4">
               <span className="text-xs font-extrabold text-brand-dark uppercase tracking-wider">3rd Floor, Cafeteria, VR Mall Chennai</span>
               <a
-                href="https://maps.app.goo.gl/Y4MNWHsEWgXkqozd7"
+                href="https://maps.app.goo.gl/k3jpsXyzGnhVVfXR7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-reflex btn-reflex-primary px-4 py-2 text-xs font-black uppercase flex items-center gap-1.5 flex-shrink-0"

@@ -5,8 +5,9 @@ import { PhotoboothSection } from '../components';
 export const PhotoboothPage = () => (
   <main className="min-h-screen bg-brand-bg">
     <Helmet>
-      <title>Photobooth Experience | Klickz & Dipz Cafe VR Chennai</title>
-      <meta name="description" content="Step into our studio-grade photobooth at VR Chennai. 100+ props, instant glossy prints, and digital QR copies!" />
+      <title>Studio Photobooth in Chennai | Instant Photo Strips at VR Mall</title>
+      <meta name="description" content="Capture 4 instant poses with fun props and custom frames at Klickz & Dipz Studio Photobooth, 3rd Floor VR Mall Anna Nagar, Chennai. Instant physical glossy prints & digital copies." />
+      <link rel="canonical" href="https://klickzanddipz.com/photobooth" />
     </Helmet>
     <PhotoboothSection />
   </main>

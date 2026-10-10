@@ -5,12 +5,9 @@ import './index.css';
 import { registerSW } from 'virtual:pwa-register';
 
 // Register Service Worker for PWA caching
-const updateSW = registerSW({
-  onNeedRefresh() {
-    // Optional: Prompt user to refresh when an update is available
-  },
+registerSW({
   onOfflineReady() {
-    console.log('App is ready for offline use!');
+    // Offline ready callback
   },
 });
 
