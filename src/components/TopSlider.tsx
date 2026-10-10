@@ -11,20 +11,20 @@ export interface TopSliderSlide {
 
 export const TOP_SLIDER_IMAGES: TopSliderSlide[] = [
   {
-    url: '/Billboard/Good Food, Bigger Memories.png',
-    mobileUrl: '/Billboard/Good Food, Bigger Memories (1).png',
+    url: '/Billboard/food-desktop.png',
+    mobileUrl: '/Billboard/food-mobile.png',
     title: 'Good Food, Bigger Memories - Klickz & Dipz VR Mall',
     link: '/menu'
   },
   {
-    url: '/Billboard/Mojitos, Milkshakes and Good Times-Desktop.png',
-    mobileUrl: '/Billboard/370+ Mojitos & Milkshakes.png',
+    url: '/Billboard/mojitos-desktop.png',
+    mobileUrl: '/Billboard/mojitos-mobile.png',
     title: 'Mojitos, Milkshakes and Good Times',
     link: '/menu'
   },
   {
-    url: '/Billboard/Good Vibes Photobooth Memories.png',
-    mobileUrl: '/Billboard/Step In, Pose, Print, Make Memories.png',
+    url: '/Billboard/photobooth-desktop.png',
+    mobileUrl: '/Billboard/photobooth-mobile.png',
     title: 'Studio Photobooth Memories at VR Mall Chennai',
     link: '/photobooth'
   }
@@ -56,14 +56,14 @@ export const TopSlider = () => {
           <picture className="w-full h-full block">
             <source
               media="(max-width: 767px)"
-              srcSet={encodeURI(currentSlide.mobileUrl)}
+              srcSet={currentSlide.mobileUrl}
             />
             <source
               media="(min-width: 768px)"
-              srcSet={encodeURI(currentSlide.url)}
+              srcSet={currentSlide.url}
             />
             <img
-              src={encodeURI(currentSlide.url)}
+              src={currentSlide.url}
               className="w-full h-full object-cover group-hover:scale-[1.01] transition-transform duration-500"
               alt={currentSlide.title}
               loading="eager"
