@@ -30,7 +30,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "burgers",
         "title": "Burgers",
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/burgers.jpg",
         "categories": [
           {
             "title": "Classic",
@@ -257,7 +257,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "korean-noodles",
         "title": "Korean Noodles",
-        "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cb431?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/korean-noodles.jpg",
         "categories": [
           {
             "title": "Veg",
@@ -359,7 +359,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "pasta",
         "title": "Pasta",
-        "image": "https://images.unsplash.com/photo-1621996311210-9113a96092b3?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/pasta.jpg",
         "categories": [
           {
             "title": "Classic",
@@ -671,7 +671,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "value-meals",
         "title": "Value Meals",
-        "image": "https://images.unsplash.com/photo-1512152272829-e3139592d56f?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/value-meals.jpg",
         "categories": [
           {
             "title": "5+ Options",
@@ -723,7 +723,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "fries",
         "title": "Fries",
-        "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/fries.jpg",
         "categories": [
           {
             "title": "Classic Fries",
@@ -1035,7 +1035,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "garlic-bread",
         "title": "Garlic Bread",
-        "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/garlic-bread.jpg",
         "categories": [
           {
             "title": "Veg",
@@ -1077,7 +1077,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "sandwiches",
         "title": "Sandwiches",
-        "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/sandwiches.jpg",
         "categories": [
           {
             "title": "Classic Sandwich",
@@ -1304,7 +1304,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "omelettes",
         "title": "Omelettes",
-        "image": "https://images.unsplash.com/photo-1510693202936-398df9959f63?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/omelettes.jpg",
         "categories": [
           {
             "title": "Veg Omelette",
@@ -1401,7 +1401,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "wraps",
         "title": "Wraps",
-        "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/wraps.jpg",
         "categories": [
           {
             "title": "Veg Wraps",
@@ -1603,7 +1603,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "momos",
         "title": "Momos",
-        "image": "https://images.unsplash.com/photo-1625220194771-7eb5a29f7367?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/momos.jpg",
         "categories": [
           {
             "title": "Veg",
@@ -1660,7 +1660,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "bread-pizza",
         "title": "Bread Pizza",
-        "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/bread-pizza.jpg",
         "categories": [
           {
             "title": "Veg",
@@ -1762,7 +1762,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "make-your-own-bag",
         "title": "Make Your Own Bag",
-        "image": "https://images.unsplash.com/photo-1599599811467-3e117188d3e7?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/make-your-own-bag.jpg",
         "categories": [
           {
             "title": "Veg",
@@ -1849,7 +1849,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "quick-bites",
         "title": "Quick Bites",
-        "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/quick-bites.jpg",
         "categories": [
           {
             "title": "Veg",
@@ -1927,7 +1927,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "mojitos",
         "title": "Mojitos",
-        "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/mojitos.jpg",
         "categories": [
           {
             "title": "Berry",
@@ -2984,7 +2984,7 @@ export const MENU_DATA: MenuType[] = [
       {
         "id": "milkshakes",
         "title": "Milkshakes",
-        "image": "https://images.unsplash.com/photo-1572490122747-3968b75bb875?auto=format&fit=crop&w=800&q=80",
+        "image": "/menu/milkshakes.jpg",
         "categories": [
           {
             "title": "Berry",
