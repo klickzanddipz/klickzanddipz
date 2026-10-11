@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Hero, PhotoboothSection, GallerySection, EventsSection, LocationSection } from '../components';
+import { Hero, PhotoboothSection, MenuSection, GallerySection, EventsSection, LocationSection } from '../components';
 
 export const Home = () => (
   <main>
@@ -11,6 +11,7 @@ export const Home = () => (
     </Helmet>
     <Hero />
     <PhotoboothSection />
+    <MenuSection />
     <GallerySection isHomeScreen={true} />
     <EventsSection />
     <LocationSection isHomeScreen={true} />
