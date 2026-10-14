@@ -36,10 +36,14 @@
     <meta name="twitter:description" content="Discover spicy Korean noodles, craft mojitos, crunch burgers, and instant studio photobooth prints at VR Mall Chennai." />
     <meta name="twitter:image" content="https://klickzanddipz.com/Gallery/klickzanddipz.webp" />
     
-    <!-- Favicon & Mobile Web App Icons -->
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Favicon & Mobile Web App Icons (Google Search & Multi-Platform Compatible) -->
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/web-app-manifest-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="apple-mobile-web-app-title" content="Klickz & Dipz" />
@@ -55,6 +59,21 @@
     {
       "@context": "https://schema.org",
       "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://klickzanddipz.com/#website",
+          "name": "Klickz & Dipz",
+          "alternateName": [
+            "Klickz and Dipz",
+            "Klickz & Dipz Cafe",
+            "Klickz & Dipz VR Chennai",
+            "Klickz and Dipz Cafe & Photobooth"
+          ],
+          "url": "https://klickzanddipz.com/",
+          "publisher": {
+            "@id": "https://klickzanddipz.com/#restaurant"
+          }
+        },
         {
           "@type": ["Restaurant", "CafeOrCoffeeShop"],
           "@id": "https://klickzanddipz.com/#restaurant",
